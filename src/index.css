@@ -1,13 +1,270 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navbar */
+.navbar {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: 100px;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col1 h2 {
+  font-size: 2rem;
+}
+
+.col2 {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.col2 a {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* App */
+.container {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+/* Home */
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.home a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  font-size: 40px;
+  padding: 100px;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #c2c2c2;
+}
+.home-row:hover {
+  background-color: #f0f8ea;
+}
+
+/* Notes */
+
+.notes {
+  padding: 50px;
+}
+
+/* NoteList */
+
+.note-list-title {
+  margin-bottom: 60px;
+}
+
+.note-list-view {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.note-list-view:hover {
+  background-color: #ebebeb;
+}
+.note-list-view h2 {
+  color: #4ea699;
+}
+.note-list-view a {
+  text-decoration: none;
+  color: black;
+}
+
+/* FullNotes */
+
+.full-note {
+  padding: 50px;
+}
+
+.full-note-view {
+  padding: 50px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.full-note-view h2 {
+  color: #4ea699;
+}
+
+.full-note-view p {
+  padding-bottom: 30px;
+}
+
+.full-note-view button {
+  background-color: #4ea699;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Create Note */
+.create-note {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.create-note label {
+  text-align: left;
+  display: block;
+}
+.create-note h2 {
+  color: #4ea699;
+  margin-bottom: 30px;
+}
+.create-note input,
+.create-note textarea,
+.create-note select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create-note button {
+  background: #4ea699;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Todos */
+
+.todos {
+  padding: 50px;
+}
+
+/* TodoList */
+
+.todo-list-title {
+  margin-bottom: 60px;
+}
+
+.todo-list-view {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.todo-list-view:hover {
+  background-color: #ebebeb;
+}
+.todo-list-view a {
+  text-decoration: none;
+  color: black;
+}
+
+/* FullTodo */
+
+.full-todo {
+  padding: 50px;
+}
+
+.full-todo-view {
+  padding: 50px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.full-todo-view p {
+  padding-bottom: 30px;
+}
+
+.full-todo-view button {
+  background-color: #4ea699;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Create Todo */
+.create-todo {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.create-todo h2 {
+  color: #4ea699;
+  margin-bottom: 30px;
+}
+.create-todo textarea {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create-todo button {
+  background: #4ea699;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Page Not Found */
+
+.page-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 50vh;
+  margin-top: 100px;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #c2c2c2;
+}
+.page-not-found:hover {
+  background-color: #f0f8ea;
+}
+
+.page-not-found-link {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }

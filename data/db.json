@@ -1,0 +1,26 @@
+{
+  "todos": [
+    {
+      "body": "Do coding",
+      "id": 1
+    },
+    {
+      "body": "Do exercise",
+      "id": 2
+    }
+  ],
+  "notes": [
+    {
+      "title": "GOW",
+      "body": "God of War is an action-adventure game franchise created by David Jaffe at Sony's Santa Monica Studio. It began in 2005 on the PlayStation 2 (PS2) video game console and has become a flagship series for PlayStation, consisting of nine installments across multiple platforms. Based on ancient mythologies, the story follows Kratos, a Spartan warrior and later the Greek God of War, who was tricked into killing his family by his former master, the original Greek God of War Ares. This sets off a series of events that leads to wars with the different mythological pantheons. The Greek-based games see Kratos follow a path of vengeance due to the machinations of the Olympian gods, while the Norse-based games, which introduce his son Atreus as a secondary protagonist, show Kratos on a path of redemption and inadvertently coming into conflict with the Norse gods. Santa Monica has developed all main entries, while Ready at Dawn and Javaground/Sony Online Entertainment-Los Angeles (SOE-LA) developed the three side games. Sony Interactive Entertainment (SIE) has published all games except the mobile phone installment, which was published by Sony Pictures Digital. The first seven games make up the Greek era of the franchise. God of War (2005), God of War II (2007), and God of War III (2010) comprise its main trilogy; the first two were released on the PS2 with the third on the PlayStation 3 (PS3). A prequel, Ascension (2013), was also released for the PS3. Other games include Chains of Olympus (2008) and Ghost of Sparta (2010) for the PlayStation Portable (PSP) and Betrayal (2007) for mobile phones that supported the Java Platform, Micro Edition (Java ME). The Norse era began with the 2018 game God of War and released for the PlayStation 4 (PS4) and later Windows in January 2022. It was accompanied by a short prequel, A Call from the Wilds (2018), a text-based game through Facebook Messenger. A sequel, Ragnarök, was released in November 2022 on the PS4 and PlayStation 5 (PS5) and concluded the Norse era.",
+      "author": "Kratos",
+      "id": 1
+    },
+    {
+      "title": "Assasin's Creed II",
+      "body": "Assassin's Creed II is a 2009 action-adventure video game developed by Ubisoft Montréal and published by Ubisoft.[1] It is the second major installment in the Assassin's Creed series, and the sequel to 2007's Assassin's Creed. The game was first released on the PlayStation 3 and Xbox 360 in November 2009, and was later made available on Microsoft Windows in March 2010 and OS X in October 2010. Remastered versions of the game and its two sequels, Assassin's Creed: Brotherhood and Assassin's Creed: Revelations, were released as part of The Ezio Collection compilation for the PlayStation 4 and Xbox One on November 15, 2016, and for the Nintendo Switch on February 17, 2022.The game's plot is set in a fictional history of real-world events and follows the millennia-old struggle between the Assassins, who fight to preserve peace and free will, and the Templars, who desire peace through control. The framing story is set in the 21st century and follows Desmond Miles as he relives the genetic memories of his ancestor, Ezio Auditore da Firenze, to uncover the mysteries left behind by an ancient race known as the First Civilization in the hope of ending the Assassin-Templar conflict. The main narrative takes place at the height of the Renaissance in Italy from 1476 to 1499, and follows Ezio's journey as an Assassin while seeking revenge against those responsible for the death of his father and brothers. Gameplay focuses on using Ezio's combat, stealth, and parkour abilities to defeat enemies and explore the environment. The game features a large open world comprising several Italian cities, including Florence, Venice, Monteriggioni, San Gimignano, and Forlì, all of which have been accurately recreated to fit the game's historical setting.Using a newly updated Anvil game engine, Assassin's Creed II began development shortly after the release of Assassin's Creed. As part of the marketing campaign for the game, Ubisoft released a three-part live-action short film, titled Assassin's Creed: Lineage, which serves as a prequel to the main story and stars most of the game's cast. During development, two chapters—titled The Battle of Forlì and Bonfire of the Vanities—were cut from the game due to time constraints, but were eventually released as downloadable expansion packs on Xbox Live and later to other platforms. Additional in-game bonuses such as missions, outfits, and weapons could be redeemed through Ubisoft's Uplay service—a trend that would continue for most Ubisoft titles going forward.",
+      "author": "Ezio",
+      "id": 2
+    }
+  ]
+}
