@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# How to run the project!!!
 
 Use command npm run start in the terminal
 
